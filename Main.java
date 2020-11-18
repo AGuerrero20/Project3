@@ -1,12 +1,13 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
     int [] seats = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-    String theNames[] = {"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"};
+    String[] studentNames = new String[15];
     for(int i = 0; i < 15; i++){
-    
+    System.out.println("What is the student's name?");
+    studentNames[i] = scan.next();
+
     }
   }
 }
